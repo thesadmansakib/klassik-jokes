@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Redirect,
@@ -18,7 +18,7 @@ import BlankPage from "./components/BlankPage/BlankPage";
 class App extends Component {
     render() {
         return (
-            <Router>
+            <Router basename="/klassik-jokes">
                 <div className="App">
                     <NavBar />
                     <main>
