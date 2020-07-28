@@ -4,8 +4,8 @@
     left: 0;
     width: 100%;
     height: 15vh;
-    max-height: 90px;
-    background: linear-gradient(
+    /* max-height: 90px; */
+    /* background: linear-gradient(
             to bottom,
             rgba(255, 255, 255, 0.15) 0%,
             rgba(0, 0, 0, 0.15) 100%
@@ -16,11 +16,26 @@
                 rgba(0, 0, 0, 0.4) 120%
             )
             #989898;
-    background-blend-mode: multiply, multiply;
+    background-blend-mode: multiply, multiply; */
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to left,
+        #0f2027,
+        #203a43,
+        #2c5364
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to left,
+        #0f2027,
+        #203a43,
+        #2c5364
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     padding: 0 10px;
+    z-index: 100;
     justify-content: flex-start;
     align-items: center;
+    border-radius: 5px 0 5px 0;
 }
 
 .fill {
@@ -49,16 +64,20 @@
 }
 
 .navigation > a {
+    text-align: center;
     text-decoration: none;
     color: #b3b3b3;
+    font-weight: 400;
 }
 
 .navigation > a:hover {
     color: #fffaf0;
+    font-weight: 500;
 }
 
 .navigation > a.active {
     color: #fffaf0;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {

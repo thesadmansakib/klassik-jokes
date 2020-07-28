@@ -1,5 +1,10 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Redirect,
+} from "react-router-dom";
 import "./App.css";
 
 import NavBar from "./components/NavBar/NavBar";
@@ -8,6 +13,7 @@ import Meme from "./components/Meme/Meme";
 import Credits from "./components/Credits/Credits";
 import Dark from "./components/Dark/Dark";
 import Friends from "./components/Friends/Friends";
+import BlankPage from "./components/BlankPage/BlankPage";
 
 class App extends Component {
     render() {
@@ -33,6 +39,10 @@ class App extends Component {
                                 <Route path="/credit">
                                     <Credits />
                                 </Route>
+                                <Route path="/blank">
+                                    <BlankPage />
+                                </Route>
+                                <Redirect to="/blank" />
                             </Switch>
                         </div>
                     </main>

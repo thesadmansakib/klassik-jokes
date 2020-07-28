@@ -1,0 +1,50 @@
+.toggle {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 30px;
+    height: 30px;
+    width: 40px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    justify-content: space-around;
+}
+
+.toggle:focus {
+    outline: none;
+}
+
+.toggleMotion {
+    align-items: center;
+    justify-content: center;
+}
+
+.toggleLine {
+    width: 30px;
+    height: 2px;
+    background: #fffaf0;
+    transform: rotate(0deg);
+    opacity: 1;
+    transition: opacity 0.4s ease, transform 0.8s ease;
+}
+
+.toggleTop {
+    transform: rotate(45deg);
+    width: 45px;
+}
+
+.toggleMiddle {
+    opacity: 0;
+}
+
+.toggleBottom {
+    transform: rotate(-45deg);
+    width: 45px;
+}
+
+@media (min-width: 769px) {
+    .toggle {
+        display: none;
+    }
+}

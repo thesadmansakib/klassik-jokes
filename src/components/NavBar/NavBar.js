@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./NavBar.module.css";
 import logo from "../images/logo-smiley.png";
 import logoText from "../images/logo.png";
 import { NavLink } from "react-router-dom";
+import SideDrawer from "../SideDrawer/SideDrawer";
+import DrawerToogleButton from "../SideDrawer/DrawerToggleButton";
+import BackDrop from "../BackDrop/BackDrop";
 
 const NavBar = () => {
+    const [hide, setHide] = useState(true);
+
     return (
         <div className={style.NavBar}>
             <div className={style.logoWrapper}>
@@ -33,6 +38,9 @@ const NavBar = () => {
                     Credits
                 </NavLink>
             </nav>
+            <DrawerToogleButton click={(toggleOn) => setHide(toggleOn)} />
+            <SideDrawer display={!hide} />
+            {!hide ? <BackDrop /> : null}
         </div>
     );
 };

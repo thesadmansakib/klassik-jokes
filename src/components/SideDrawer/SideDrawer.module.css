@@ -1,0 +1,67 @@
+.SideDrawer {
+    position: fixed;
+    top: 15vh;
+    right: 0;
+    z-index: 100;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to left,
+        #0f2027,
+        #203a43
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0f2027, #203a43);
+    width: 70%;
+    height: 85vh;
+    max-width: 300px;
+    padding: 10px;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-out;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.navigation > a {
+    text-decoration: none;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    color: #b3b3b3;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.navigation > a:hover,
+.navigation > a:active {
+    color: #fffaf0;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navigation > a.active {
+    color: #fffaf0;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+@media (min-width: 769px) {
+    .SideDrawer {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .SideDrawer {
+        top: 10vh;
+        height: 90vh;
+    }
+}

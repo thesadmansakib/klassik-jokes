@@ -1,9 +1,23 @@
 .App {
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 .container {
-    margin-top: 100px;
+    margin-top: 20vh;
+    min-height: 80vh;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 18vh;
+        min-height: 82vh;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin-top: 12vh;
+        min-height: 88vh;
+    }
 }
