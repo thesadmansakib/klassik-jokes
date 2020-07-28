@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7866a2589c0dfc643a048792674def5e",
+    "revision": "d436bc79fe2551339d99a295b08030d4",
     "url": "/klassik-jokes/index.html"
   },
   {
-    "revision": "d4817c7a1a1dd9205d92",
-    "url": "/klassik-jokes/static/css/main.e694b813.chunk.css"
+    "revision": "24c3cf7ae97ac7469a5f",
+    "url": "/klassik-jokes/static/css/main.97e706a8.chunk.css"
   },
   {
     "revision": "1814bc18c5192b846921",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/klassik-jokes/static/js/2.d29afb96.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4817c7a1a1dd9205d92",
+    "revision": "24c3cf7ae97ac7469a5f",
     "url": "/klassik-jokes/static/js/main.eae59adc.chunk.js"
   },
   {
