@@ -24,25 +24,25 @@ class App extends Component {
                     <main>
                         <div className="container">
                             <Switch>
-                                <Route exact path="/">
+                                <Route exact path="/klassik-jokes">
                                     <Home />
                                 </Route>
-                                <Route path="/meme">
+                                <Route path="/klassik-jokes/meme">
                                     <Meme />
                                 </Route>
-                                <Route path="/dark">
+                                <Route path="/klassik-jokes/dark">
                                     <Dark />
                                 </Route>
-                                <Route path="/friends">
+                                <Route path="/klassik-jokes/friends">
                                     <Friends />
                                 </Route>
-                                <Route path="/credit">
+                                <Route path="/klassik-jokes/credit">
                                     <Credits />
                                 </Route>
-                                <Route path="/blank">
+                                <Route path="/klassik-jokes/blank">
                                     <BlankPage />
                                 </Route>
-                                <Redirect to="/blank" />
+                                <Redirect to="/klassik-jokes" />
                             </Switch>
                         </div>
                     </main>

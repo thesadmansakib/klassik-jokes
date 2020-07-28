@@ -11,19 +11,35 @@ const sideDrawer = (props) => {
             })}
         >
             <nav className={style.navigation}>
-                <NavLink activeClassName={style.active} exact to="/">
+                <NavLink
+                    activeClassName={style.active}
+                    exact
+                    to="/klassik-jokes"
+                >
                     Home
                 </NavLink>
-                <NavLink activeClassName={style.active} to="/meme">
+                <NavLink
+                    activeClassName={style.active}
+                    to="/klassik-jokes/meme"
+                >
                     Meme Generator
                 </NavLink>
-                <NavLink activeClassName={style.active} to="/dark">
+                <NavLink
+                    activeClassName={style.active}
+                    to="/klassik-jokes/dark"
+                >
                     Dark Jokes
                 </NavLink>
-                <NavLink activeClassName={style.active} to="/friends">
+                <NavLink
+                    activeClassName={style.active}
+                    to="/klassik-jokes/friends"
+                >
                     Joke About Friends
                 </NavLink>
-                <NavLink activeClassName={style.active} to="/credit">
+                <NavLink
+                    activeClassName={style.active}
+                    to="/klassik-jokes/credit"
+                >
                     Credits
                 </NavLink>
             </nav>
