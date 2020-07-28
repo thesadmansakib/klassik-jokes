@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    justify-content: space-around;
+}
+
+.container > a {
+    text-decoration: none;
+}
+
+.btn {
+    height: 20vh;
+    width: 50vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to left,
+        #0f2027,
+        #203a43,
+        #2c5364
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to left,
+        #0f2027,
+        #203a43,
+        #2c5364
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #eeeeee;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.icon {
+    width: 50px;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .btn {
+        width: 70vw;
+    }
+}
+
+@media (max-height: 480px) {
+    .btn {
+        height: 25vh;
+    }
+}
+/* @media (max-height: 576px) {
+    .container {
+        min-height: 300px;
+    }
+} */
