@@ -18,31 +18,31 @@ import BlankPage from "./components/BlankPage/BlankPage";
 class App extends Component {
     render() {
         return (
-            <Router basename="/klassik-jokes">
+            <Router basename="/">
                 <div className="App">
                     <NavBar />
                     <main>
                         <div className="container">
                             <Switch>
-                                <Route exact path="/klassik-jokes">
+                                <Route exact path="/">
                                     <Home />
                                 </Route>
-                                <Route path="/klassik-jokes/meme">
+                                <Route path="/meme">
                                     <Meme />
                                 </Route>
-                                <Route path="/klassik-jokes/dark">
+                                <Route path="/dark">
                                     <Dark />
                                 </Route>
-                                <Route path="/klassik-jokes/friends">
+                                <Route path="/friends">
                                     <Friends />
                                 </Route>
-                                <Route path="/klassik-jokes/credit">
+                                <Route path="/credit">
                                     <Credits />
                                 </Route>
-                                <Route path="/klassik-jokes/blank">
+                                <Route path="/blank">
                                     <BlankPage />
                                 </Route>
-                                <Redirect to="/klassik-jokes" />
+                                <Redirect to="/blank" />
                             </Switch>
                         </div>
                     </main>

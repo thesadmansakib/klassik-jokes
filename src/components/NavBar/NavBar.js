@@ -22,35 +22,19 @@ const NavBar = () => {
             </div>
 
             <nav className={style.navigation}>
-                <NavLink
-                    activeClassName={style.active}
-                    exact
-                    to="/klassik-jokes"
-                >
+                <NavLink activeClassName={style.active} exact to="/">
                     Home
                 </NavLink>
-                <NavLink
-                    activeClassName={style.active}
-                    to="/klassik-jokes/meme"
-                >
+                <NavLink activeClassName={style.active} to="/meme">
                     Meme Generator
                 </NavLink>
-                <NavLink
-                    activeClassName={style.active}
-                    to="/klassik-jokes/dark"
-                >
+                <NavLink activeClassName={style.active} to="/dark">
                     Dark Jokes
                 </NavLink>
-                <NavLink
-                    activeClassName={style.active}
-                    to="/klassik-jokes/friends"
-                >
+                <NavLink activeClassName={style.active} to="/friends">
                     Joke About Friends
                 </NavLink>
-                <NavLink
-                    activeClassName={style.active}
-                    to="/klassik-jokes/credit"
-                >
+                <NavLink activeClassName={style.active} to="/credit">
                     Credits
                 </NavLink>
             </nav>
