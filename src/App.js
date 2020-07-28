@@ -9,6 +9,8 @@ import "./App.css";
 
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";
+import Random from "./components/Random/Random";
+import Daddy from "./components/Daddy/Daddy";
 import Meme from "./components/Meme/Meme";
 import Credits from "./components/Credits/Credits";
 import Dark from "./components/Dark/Dark";
@@ -26,6 +28,12 @@ class App extends Component {
                             <Switch>
                                 <Route exact path="/">
                                     <Home />
+                                </Route>
+                                <Route path="/random">
+                                    <Random />
+                                </Route>
+                                <Route path="/daddy">
+                                    <Daddy />
                                 </Route>
                                 <Route path="/meme">
                                     <Meme />
