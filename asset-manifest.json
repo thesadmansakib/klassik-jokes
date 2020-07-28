@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/klassik-jokes/static/css/main.ca3ae6bd.chunk.css",
-    "main.js": "/klassik-jokes/static/js/main.ff6678b2.chunk.js",
-    "main.js.map": "/klassik-jokes/static/js/main.ff6678b2.chunk.js.map",
+    "main.js": "/klassik-jokes/static/js/main.5b1907d3.chunk.js",
+    "main.js.map": "/klassik-jokes/static/js/main.5b1907d3.chunk.js.map",
     "runtime-main.js": "/klassik-jokes/static/js/runtime-main.f4527f73.js",
     "runtime-main.js.map": "/klassik-jokes/static/js/runtime-main.f4527f73.js.map",
     "static/js/2.a910fb2a.chunk.js": "/klassik-jokes/static/js/2.a910fb2a.chunk.js",
     "static/js/2.a910fb2a.chunk.js.map": "/klassik-jokes/static/js/2.a910fb2a.chunk.js.map",
     "index.html": "/klassik-jokes/index.html",
-    "precache-manifest.eaaedefa1bf2ec94d3502b38c94cbab6.js": "/klassik-jokes/precache-manifest.eaaedefa1bf2ec94d3502b38c94cbab6.js",
+    "precache-manifest.eb1bdde4fc92a369a8be39dda428b0ea.js": "/klassik-jokes/precache-manifest.eb1bdde4fc92a369a8be39dda428b0ea.js",
     "service-worker.js": "/klassik-jokes/service-worker.js",
     "static/css/main.ca3ae6bd.chunk.css.map": "/klassik-jokes/static/css/main.ca3ae6bd.chunk.css.map",
     "static/js/2.a910fb2a.chunk.js.LICENSE.txt": "/klassik-jokes/static/js/2.a910fb2a.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f4527f73.js",
     "static/js/2.a910fb2a.chunk.js",
     "static/css/main.ca3ae6bd.chunk.css",
-    "static/js/main.ff6678b2.chunk.js"
+    "static/js/main.5b1907d3.chunk.js"
   ]
 }
