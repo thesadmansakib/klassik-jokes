@@ -12,16 +12,15 @@ const Dark = () => {
     const [punchline, setPunchline] = useState(false);
 
     useEffect(() => {
-        getJokes();
+        getJoke();
     }, [next]);
 
-    const getJokes = async () => {
+    const getJoke = async () => {
         const response = await axios.get(
             "https://sv443.net/jokeapi/v2/joke/Dark"
         );
         setLoading(false);
         setPunchline(false);
-        console.log(response.data);
         setJoke(response.data);
     };
 
@@ -42,14 +41,14 @@ const Dark = () => {
                             {punchline ? (
                                 <div
                                     style={
-                                        ({ marginTop: "20px" },
+                                        ({ marginTop: "10px" },
                                         { color: "#007049" })
                                     }
                                 >
                                     {joke.delivery}
                                 </div>
                             ) : (
-                                <div style={{ marginTop: "20px" }}>
+                                <div style={{ marginTop: "10px" }}>
                                     <i style={{ color: "#007049" }}>
                                         Tap this card for the punchline..!!
                                     </i>
@@ -70,7 +69,7 @@ const Dark = () => {
                             setNext(!next);
                         }}
                     >
-                        Another Joke
+                        Get Another Joke
                     </button>
 
                     <button className={style.navigator}>

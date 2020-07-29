@@ -34,9 +34,9 @@
 .navigator,
 .jokeRefresh {
     margin-top: 10px;
-    width: 60%;
+    width: 65%;
     min-height: 10vh;
-    font-size: 1.2rem;
+    font-size: 1rem;
     align-self: center;
     color: #cccccc;
     border: none;

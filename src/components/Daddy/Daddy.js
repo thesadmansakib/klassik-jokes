@@ -21,7 +21,6 @@ const Daddy = () => {
                 Accept: "application/json",
             },
         });
-        console.log(response.data);
         setLoading(false);
         setJoke(response.data);
     };
@@ -46,7 +45,7 @@ const Daddy = () => {
                             setNext(!next);
                         }}
                     >
-                        Another Joke
+                        Get Another Joke
                     </button>
 
                     <button className={style.navigator}>

@@ -13,9 +13,9 @@
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8),
         -5px -5px 20px rgba(0, 0, 0, 0.8);
     border-radius: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 80vw;
-    min-height: 50vh;
+    min-height: 30vh;
     overflow: auto;
 }
 
