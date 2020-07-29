@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import style from "./NavBar.module.css";
 import logo from "../images/logo-smiley.png";
 import logoText from "../images/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import SideDrawer from "../SideDrawer/SideDrawer";
 import DrawerToogleButton from "../SideDrawer/DrawerToggleButton";
 import BackDrop from "../BackDrop/BackDrop";
@@ -13,12 +13,14 @@ const NavBar = () => {
     return (
         <div className={style.NavBar}>
             <div className={style.logoWrapper}>
-                <img className={style.logo} src={logo} alt="Logo" />
-                <img
-                    className={style.logoText}
-                    src={logoText}
-                    alt="Klassik Jokes"
-                />
+                <Link exact to="/">
+                    <img className={style.logo} src={logo} alt="Logo" />
+                    <img
+                        className={style.logoText}
+                        src={logoText}
+                        alt="Klassik Jokes"
+                    />
+                </Link>
             </div>
 
             <nav className={style.navigation}>
