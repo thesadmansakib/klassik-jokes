@@ -21,9 +21,6 @@ const Meme = () => {
 
     return (
         <div className={style.container}>
-            <button className={style.navigator}>
-                <Link to="/">Go Back Home</Link>
-            </button>
             {loading ? (
                 <div style={{ textAlign: "center", alignSelf: "center" }}>
                     <Load />
@@ -53,6 +50,9 @@ const Meme = () => {
                     ))}
                 </div>
             )}
+            <button className={style.navigator}>
+                <Link to="/">Go Back Home</Link>
+            </button>
         </div>
     );
 };

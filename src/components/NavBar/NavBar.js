@@ -42,7 +42,7 @@ const NavBar = () => {
             </nav>
             <DrawerToogleButton click={(toggleOn) => setHide(toggleOn)} />
             <SideDrawer display={!hide} />
-            {!hide ? <BackDrop /> : null}
+            {!hide ? <BackDrop onClick={() => console.log("clicked")} /> : null}
         </div>
     );
 };

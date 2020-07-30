@@ -48,7 +48,7 @@ const Friends = () => {
         htmlToImage
             .toBlob(document.getElementById("Joke"))
             .then(function (blob) {
-                window.saveAs(blob, "Friend-Joke.png");
+                window.saveAs(blob, "klassik-humor.png");
             });
     };
 

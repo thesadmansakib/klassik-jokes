@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    align-self: flex-start;
+    font-size: 0.8rem;
+}
+.container > a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 30px;
+    }
+}
