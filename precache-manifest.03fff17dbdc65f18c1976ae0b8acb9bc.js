@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "426cd71d5a2d777be16c7a0e1ffa5d67",
+    "revision": "c576657da3482864990cda4c5474871d",
     "url": "/klassik-jokes/index.html"
   },
   {
-    "revision": "d683dedb5bb07d52b3bb",
-    "url": "/klassik-jokes/static/css/main.b9c00cc5.chunk.css"
+    "revision": "b13376320e3534549aff",
+    "url": "/klassik-jokes/static/css/main.c440e608.chunk.css"
   },
   {
-    "revision": "58ebc511c57ec4258dd8",
-    "url": "/klassik-jokes/static/js/2.ce725a48.chunk.js"
+    "revision": "626542f3a3f77e888a70",
+    "url": "/klassik-jokes/static/js/2.a499d753.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/klassik-jokes/static/js/2.ce725a48.chunk.js.LICENSE.txt"
+    "url": "/klassik-jokes/static/js/2.a499d753.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d683dedb5bb07d52b3bb",
-    "url": "/klassik-jokes/static/js/main.222f98ae.chunk.js"
+    "revision": "b13376320e3534549aff",
+    "url": "/klassik-jokes/static/js/main.33f7e9f5.chunk.js"
   },
   {
     "revision": "384529e4da831ba4942a",
