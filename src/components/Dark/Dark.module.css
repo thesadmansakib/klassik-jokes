@@ -79,13 +79,6 @@
     outline: none;
 }
 
-.navigator > a:hover,
-.navigator > a:active,
-.jokeRefresh:hover,
-.jokeRefresh:active {
-    color: #eeeeee;
-}
-
 .navigator > a {
     text-decoration: none;
     color: #cccccc;
@@ -94,6 +87,13 @@
     height: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.navigator > a:hover,
+.navigator > a:active,
+.jokeRefresh:hover,
+.jokeRefresh:active {
+    color: #eeeeee;
 }
 
 @media (min-width: 780px) {

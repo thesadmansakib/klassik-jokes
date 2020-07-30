@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.input > img {
+    width: 300px;
+    height: 300px;
+}

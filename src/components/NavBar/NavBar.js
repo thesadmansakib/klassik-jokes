@@ -13,7 +13,7 @@ const NavBar = () => {
     return (
         <div className={style.NavBar}>
             <div className={style.logoWrapper}>
-                <Link exact to="/">
+                <Link to="/">
                     <img className={style.logo} src={logo} alt="Logo" />
                     <img
                         className={style.logoText}

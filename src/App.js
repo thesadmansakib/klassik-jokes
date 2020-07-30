@@ -12,6 +12,7 @@ import Home from "./components/Home/Home";
 import Random from "./components/Random/Random";
 import Daddy from "./components/Daddy/Daddy";
 import Meme from "./components/Meme/Meme";
+import MemeEdit from "./components/Meme/MemeEdit";
 import Credits from "./components/Credits/Credits";
 import Dark from "./components/Dark/Dark";
 import Friends from "./components/Friends/Friends";
@@ -35,8 +36,11 @@ class App extends Component {
                                 <Route path="/daddy">
                                     <Daddy />
                                 </Route>
-                                <Route path="/meme">
+                                <Route exact path="/meme">
                                     <Meme />
+                                </Route>
+                                <Route name="edit" path="/meme/edit">
+                                    <MemeEdit />
                                 </Route>
                                 <Route path="/dark">
                                     <Dark />

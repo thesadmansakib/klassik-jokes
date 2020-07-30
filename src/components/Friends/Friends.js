@@ -35,6 +35,7 @@ const Friends = () => {
         e.preventDefault();
         setSubmit(submit + 1);
     };
+
     const updateFirst = (e) => {
         setFirst(e.target.value);
     };
