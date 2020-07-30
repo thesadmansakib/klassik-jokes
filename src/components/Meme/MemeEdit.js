@@ -165,20 +165,24 @@ const MemeEdit = (props) => {
                                     introduce it as soon as possible.Hang in
                                     there Till then, will you?
                                 </p>
-                                <p>
+                                <p style={{ marginBottom: "20px" }}>
                                     Alternatively you can download the empty
                                     template below and add caption on your own
                                     if you feel like it. Click on the image to
                                     download.
                                 </p>
+                                <a href={meme.url} download>
+                                    <img
+                                        style={{
+                                            alignSelf: "center",
+                                            textAlign: "center",
+                                        }}
+                                        className={style.mimage}
+                                        src={meme.url}
+                                        alt="Empty Template"
+                                    />
+                                </a>
                             </div>
-                            <a href={meme.url} download>
-                                <img
-                                    className={style.mimage}
-                                    src={meme.url}
-                                    alt="Empty Template"
-                                />
-                            </a>
                             {/* {meme.box_count === 3 ? (
                                 <div className={style.form}>
                                     <form id="caption3" onSubmit={updateSubmit}>

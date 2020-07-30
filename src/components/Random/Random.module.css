@@ -17,6 +17,7 @@
     width: 80vw;
     min-height: 30vh;
     overflow: auto;
+    cursor: pointer;
 }
 
 .joke {
