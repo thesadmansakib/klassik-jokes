@@ -17,7 +17,7 @@ const Dark = () => {
 
     const getJoke = async () => {
         const response = await axios.get(
-            "https://sv443.net/jokeapi/v2/joke/Dark"
+            "https://cors-anywhere.herokuapp.com/https://sv443.net/jokeapi/v2/joke/Dark"
         );
         setLoading(false);
         setPunchline(false);

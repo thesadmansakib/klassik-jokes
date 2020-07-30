@@ -25,7 +25,7 @@ const Friends = () => {
 
     const getJoke = async () => {
         const response = await axios.get(
-            `http://api.icndb.com/jokes/random?firstName=${first}&lastName=${last}`
+            `https://cors-anywhere.herokuapp.com/http://api.icndb.com/jokes/random?firstName=${first}&lastName=${last}`
         );
         setLoading(false);
         setJoke(response.data.value.joke.replace(/&quot;/g, "'"));
