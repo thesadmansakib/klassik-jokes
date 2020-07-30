@@ -18,7 +18,7 @@ const sideDrawer = (props) => {
                     Meme Generator
                 </NavLink>
                 <NavLink activeClassName={style.active} to="/dark">
-                    Dark Jokes
+                    Dark Humor
                 </NavLink>
                 <NavLink activeClassName={style.active} to="/friends">
                     Joke About Friends
